@@ -11,6 +11,6 @@ import javax.ws.rs.Produces;
 public class Test {
     @GET
     public String index() {
-        return "Whatever dude";
+        return "{message: 'fuck you!'}";
     }
 }
